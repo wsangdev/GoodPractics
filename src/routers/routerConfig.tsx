@@ -1,4 +1,5 @@
 import {HomePage, LoginPage} from '../Pages/'
+import RegisterPage from '../Pages/Register/RegisterPage'
 
 export const routers = [
   {
@@ -8,6 +9,10 @@ export const routers = [
   {
     path: '/login',
     element: <LoginPage/>
+  },
+  {
+    path: '/register',
+    element: <RegisterPage/>
   }
 ]
 
